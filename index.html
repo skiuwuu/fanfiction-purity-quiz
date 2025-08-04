@@ -73,6 +73,7 @@
 <label><input type="checkbox" name="tropes" value="2"> guro/gore porn </label>
 <label><input type="checkbox" name="tropes" value="1"> blood as lube </label>
 <label><input type="checkbox" name="tropes" value="2"> wound fucking </label>
+<label><input type="checkbox" name="tropes" value="2"> cannibalism </label>
 <label><input type="checkbox" name="tropes" value="2"> sexualised self harm/self mutilation </label>
 <label><input type="checkbox" name="tropes" value="2"> vomit/emeto kink </label>
 <label><input type="checkbox" name="tropes" value="1"> kidnapping </label>
@@ -104,7 +105,7 @@
       score += parseInt(box.value);
     });
 
-    const maxScore = 109;
+    const maxScore = 110;
     const percentage = Math.round((score / maxScore) * 100);
 
     let resultText = `You scored ${score} out of ${maxScore}.\n\n`;
