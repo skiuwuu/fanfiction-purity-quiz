@@ -44,6 +44,7 @@
   <label><input type="checkbox" name="tropes" value="1"> mommy/daddy kink</label>
   <label><input type="checkbox" name="tropes" value="1"> size difference</label>
   <label><input type="checkbox" name="tropes" value="1"> cheating</label>
+  <label><input type="checkbox" name="tropes" value="2"> feederism/fat fetish</label>
   <label><input type="checkbox" name="tropes" value="1"> misuse of random objects</label>
   <label><input type="checkbox" name="tropes" value="1"> sadism/masochism</label>
   <label><input type="checkbox" name="tropes" value="1"> stalking</label>
@@ -109,7 +110,7 @@
       score += parseInt(box.value);
     });
 
-    const maxScore = 115;
+    const maxScore = 116;
     const percentage = Math.round((score / maxScore) * 100);
 
     let resultText = `You scored ${score} out of ${maxScore}.\n\n`;
